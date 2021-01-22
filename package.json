@@ -1,0 +1,22 @@
+{
+  "name": "denisnovik",
+  "version": "1.0.0",
+  "description": "ch1",
+  "main": "index.js",
+  "scripts": {
+    "test": "?"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oleksandrilchuck/denisNovik.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "oleksandr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oleksandrilchuck/denisNovik/issues"
+  },
+  "homepage": "https://github.com/oleksandrilchuck/denisNovik#readme"
+}

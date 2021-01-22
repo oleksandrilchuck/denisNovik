@@ -180,6 +180,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     padding-bottom: 110px;
 }
 .skills__rating-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     max-width: 166px;
     max-height: 206px;
 }
@@ -208,3 +211,31 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 .skill__rating-star:last-child {
     padding-right: 0;
 }
+/* Portfolio */
+.portfolio {
+    background-color: #f6f6f6;
+}
+.portfolio__title {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 70;
+    padding-top: 115px;
+    padding-bottom: 62px;
+}
+.portfolio__item {
+    max-width: 936px;
+    /* max-height: 522px; */
+    text-align: center;
+    padding-bottom: 100px;
+}
+.portfolio__item img {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.portfolio__text {
+    font-size: 18px;
+    font-weight: 50;
+    text-decoration: underline;
+}
+
