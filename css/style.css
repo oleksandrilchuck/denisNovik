@@ -78,6 +78,27 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     .header__nav{
         display: none;
     }
+    .lang{
+        display: none;
+    }
+    .hero__inner-text{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero__inner-textp1{
+        padding-top: 30px;
+    }
+    .skills__rating{
+        flex-direction: column;
+    }
+    .skills__rating-items{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 81px;
+    }
+   .contacts__message-btn{
+       width: 100%;
+   }
 
 }
 
@@ -93,14 +114,17 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     justify-content: space-between;
     
 }
+.hero__inner-textp{
+    display: flex;
+    flex-direction: column-reverse;
+}
 .hero__title {
     font-size: 47px;
     font-weight: bold;
     align-self: center;
 }
-.hero__text {
+.hero__inner-textp1 {
     
-    align-self: flex-end;
     font-size: 18px;
     font-weight: 500;
     line-height: 100%;
@@ -188,6 +212,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     display: flex;
     justify-content: space-between;
     padding-bottom: 110px;
+    flex-wrap: wrap;
 }
 .skills__rating-items {
     display: flex;
@@ -290,9 +315,13 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 .contacts__social-inner{
     display: flex;
     justify-content: space-between;
+    flex-shrink: 1;
+    max-width: 342px;
+    width: 100%;
+   
 }
 .contacts__social-img{
-    margin-right: 60px;
+    /* margin-right: 60px; */
 }
 .contacts__social-img:last-child{
     margin-right: 0;
